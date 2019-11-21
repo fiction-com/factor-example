@@ -1,0 +1,16 @@
+{
+  "name": "factor-example",
+  "description": "A basic application built with Factor JS",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "factor": {
+    "target": [
+      "app",
+      "server"
+    ],
+    "url": "https://basic-example.factor.dev"
+  },
+  "dependencies": {
+    "@factor/core": "^1.0.0"
+  }
+}

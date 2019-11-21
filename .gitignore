@@ -1,0 +1,13 @@
+# Factor
+dist
+.factor
+
+# Private Keys
+.env
+
+# Modules
+node_modules
+
+# Other 
+*.log
+.DS_store
