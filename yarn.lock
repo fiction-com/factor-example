@@ -771,10 +771,10 @@
     listr "^0.14.3"
     yargs "^15.0.2"
 
-"@factor/core@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@factor/core/-/core-1.1.2.tgz#5914bd61d411954ed6b558ea02f92e536ca25fd7"
-  integrity sha512-uNjmxG2Bi2u9JsR9dj3fgfhS9bHmhilXOriqTihg0yUq3U2DabPiqg695ItyPlkNEElFkcX52PhsdyWTYwVcJw==
+"@factor/core@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@factor/core/-/core-1.1.3.tgz#3347e96edb2cff2501c631239d5ba5d68f0e3b8c"
+  integrity sha512-/qCDSV4RUmVPMj5h7EVZ1mSvW+Rx3bByoA0HdCRoQINBM3OFJGP8qv69QzZtUc6DDVwlMoj6+Kk0ZlQSK0bTAQ==
   dependencies:
     "@factor/app" "^1.1.2"
     "@factor/attachment" "^1.1.1"
@@ -785,8 +785,8 @@
     "@factor/endpoint" "^1.1.1"
     "@factor/meta" "^1.1.1"
     "@factor/plugin-ssr-bar" "^1.1.1"
-    "@factor/post" "^1.1.1"
-    "@factor/server" "^1.1.1"
+    "@factor/post" "^1.1.3"
+    "@factor/server" "^1.1.3"
     "@factor/templates" "^1.1.1"
     "@factor/tools" "^1.1.2"
     "@factor/ui" "^1.1.2"
@@ -841,10 +841,10 @@
   resolved "https://registry.yarnpkg.com/@factor/plugin-ssr-bar/-/plugin-ssr-bar-1.1.1.tgz#d805c74ac081a39dce51d7a9bc7e97dad1c4cb6b"
   integrity sha512-M6oUc9WGxrKoXw7kDNrUZQsm5drLSBgd0jPVrjqUQ/OmlieCKPFGK/2vvXZUkXs5CAwr4WG6i45WSsA7R1W80Q==
 
-"@factor/post@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@factor/post/-/post-1.1.1.tgz#ecf4b47e026b39b4fcff517e529afa0c12c96d09"
-  integrity sha512-z85ZvFpd5zk6UbO9WqAqbjPGYwThcwo1NhtfDdjGqxCN08Igg/kK84N6w6buln+b2GyLLZ9k3tj8bZdxE4qGJQ==
+"@factor/post@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@factor/post/-/post-1.1.3.tgz#04169e46855cacc05ef1ce7ca4c499bad5d90b35"
+  integrity sha512-IXtMmyE0ZWAD2Xntgu3TMpGmXr7J5x7C/Ntj8COo3Lie0+gPHSbkIB4vqwT4vC18XQG0WXLAgmM462dMqekXcQ==
   dependencies:
     jsonwebtoken "^8.5.1"
     mongodb "^3.2.7"
@@ -854,10 +854,10 @@
     scriptjs "^2.5.9"
     vue-client-only "^2.0.0"
 
-"@factor/server@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@factor/server/-/server-1.1.1.tgz#cb57f663b584d1bc48ecf7b79a77ee8e165f9f95"
-  integrity sha512-b6Iq+6xuJZHwKVucztnUIPCXcM09aNABVIXQyrzsQrN24IgMJchPpdKi1h4TkJE8LRjw6VztnjH2/HthyOQgtA==
+"@factor/server@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@factor/server/-/server-1.1.3.tgz#dc1a5859e03358481ebf66f378803b56eac6c286"
+  integrity sha512-ccdq8mFZ+6BW5DNCJH4zwRJiASTDYP8xXezuUaKp+563xqNoWNCq1VCEMBgbcJQMmMMcPYAGTmWh8YCCYzoIng==
   dependencies:
     body-parser "^1.19.0"
     chalk "^3.0.0"
