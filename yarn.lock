@@ -685,10 +685,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@factor/app@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@factor/app/-/app-1.1.1.tgz#809e9fd82c9a86c43a30eca71657eda6ff1d6537"
-  integrity sha512-jNtWeQpCDT4S7flnYasdt6rwAoQaCrgb6duBk3GCIICYroxSB5pLzhpNmwUpuCFsUGCQbzSBa9X6sNuFRN8H1g==
+"@factor/app@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@factor/app/-/app-1.1.2.tgz#525748b9fc18db239c078ba19a1fcd740f2136af"
+  integrity sha512-h44d4xxhE4jiasHKgn1VUardSwG4rYf8UercRBF8MxzCdemOkn/Cv0VXgmo3pJ6LgT+9+C4Cfho6sczGw3bMjg==
   dependencies:
     qs "^6.6.0"
     vue "^2.6.7"
@@ -771,16 +771,16 @@
     listr "^0.14.3"
     yargs "^15.0.2"
 
-"@factor/core@^1.0.0":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@factor/core/-/core-1.1.1.tgz#eabfeb59256d96477ad5aba81d6fbe679df2360a"
-  integrity sha512-NDjjsPqNb6GkQHZRaG/YLw986rQpERBdr4XQfJ575UoUiGPAmwOazfewNHWKjIiyJVVin1Cfl9FuauItF0wdZw==
+"@factor/core@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@factor/core/-/core-1.1.2.tgz#5914bd61d411954ed6b558ea02f92e536ca25fd7"
+  integrity sha512-uNjmxG2Bi2u9JsR9dj3fgfhS9bHmhilXOriqTihg0yUq3U2DabPiqg695ItyPlkNEElFkcX52PhsdyWTYwVcJw==
   dependencies:
-    "@factor/app" "^1.1.1"
+    "@factor/app" "^1.1.2"
     "@factor/attachment" "^1.1.1"
     "@factor/build" "^1.1.1"
     "@factor/cli" "^1.1.1"
-    "@factor/dashboard" "^1.1.1"
+    "@factor/dashboard" "^1.1.2"
     "@factor/email" "^1.1.1"
     "@factor/endpoint" "^1.1.1"
     "@factor/meta" "^1.1.1"
@@ -788,14 +788,14 @@
     "@factor/post" "^1.1.1"
     "@factor/server" "^1.1.1"
     "@factor/templates" "^1.1.1"
-    "@factor/tools" "^1.1.1"
-    "@factor/ui" "^1.1.1"
-    "@factor/user" "^1.1.1"
+    "@factor/tools" "^1.1.2"
+    "@factor/ui" "^1.1.2"
+    "@factor/user" "^1.1.2"
 
-"@factor/dashboard@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@factor/dashboard/-/dashboard-1.1.1.tgz#262a0d4f1c24ed6b9a97794e9e34fdb7660ba9d9"
-  integrity sha512-H0XNZp0JicMrx+l4x3+NaOvcBGI+WAfcXpiWOvccOqo9yxLQiLxw8PJD6FtbhUDikH6YIdxvaz+J2fRxpGVw4A==
+"@factor/dashboard@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@factor/dashboard/-/dashboard-1.1.2.tgz#dd862a33c33af9e19c5abb33aa9a1069a858fc0f"
+  integrity sha512-CQ80EqDYgpc1jHSAlL+EHd9+ElrIKRrjJmMtPdzdD4qVBcFwFz13cWztlV7675fXXMsg9WRCOW7UvmDHWkqPgQ==
 
 "@factor/email@^1.1.1":
   version "1.1.1"
@@ -823,6 +823,18 @@
   dependencies:
     vue "^2.6.10"
     vue-meta "^2.2.2"
+
+"@factor/plugin-blog@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@factor/plugin-blog/-/plugin-blog-1.1.1.tgz#eaf2d3381c9e694c8f8c3bafac5aab68cd21a56b"
+  integrity sha512-rIcNg47p01adhmq9smUKGtBcZzJifgleceiA435oRQhkrFPUCyoqIWdelqAgPQYIqUDPUK0gyvF10His2GFg7A==
+  dependencies:
+    "@factor/plugin-highlight-code" "^1.1.1"
+
+"@factor/plugin-highlight-code@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@factor/plugin-highlight-code/-/plugin-highlight-code-1.1.1.tgz#f44f645a054f25de31f96d86c4f449f06b13a4a1"
+  integrity sha512-91XufZ6nOhzX2I2dwjd6vy5SRXsteUPvjfZSmsxMy7Bv6iS2it7s6OJ0Q3KqlPGf8yyoOF3hMkDWSs2qQ1gIdw==
 
 "@factor/plugin-ssr-bar@^1.1.1":
   version "1.1.1"
@@ -878,10 +890,10 @@
   resolved "https://registry.yarnpkg.com/@factor/templates/-/templates-1.1.1.tgz#4ac3970d52a74923d13cd2037840ce590fd72d34"
   integrity sha512-5Jl6AjzEgtBlZ4fUZLrOCJ6Af5o69/yt8tx9EQrOr5pm1rDPK1GeT0+A2ucR17GUE+YqAT5niODRq4UzCMifHQ==
 
-"@factor/tools@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@factor/tools/-/tools-1.1.1.tgz#5d84966b49f03fd82f5e6ee5eb86369f4be1e518"
-  integrity sha512-PYw93wqBsWyLMwWrmRt3cUVJLBajCDNsJXL9QwVazB4CBbYg0oBjqsncLd1hAnt9IthhIuqWu5/YtnTu44Rllw==
+"@factor/tools@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@factor/tools/-/tools-1.1.2.tgz#d113caf5586a1b5e872cedff9bddf56e5fa6ad22"
+  integrity sha512-0AM7P23mkfVVRfOY266sykEQ/04iv19xCr8pZ/a+7TPcfNnokz3c6HtuFuX/hiLb1R1y4UtBXFRSoRXTgGl43Q==
   dependencies:
     axios "^0.19.0"
     cash-dom "^4.1.5"
@@ -916,18 +928,18 @@
     uniqid "^5.0.3"
     validator "^12.0.0"
 
-"@factor/ui@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@factor/ui/-/ui-1.1.1.tgz#f91928484431d6a464ea243d5b5f96fce944e836"
-  integrity sha512-JuNJDnqsoatBzrM4tz5ClF6vM/rK097Yk5ppL8CooZt/RK4qPNebSpWVJ0iXmTjdzomJQud40IaZjnKqT/lAUw==
+"@factor/ui@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@factor/ui/-/ui-1.1.2.tgz#f39c8df7a3f616d8e70deb460d5548d658842ea5"
+  integrity sha512-nKMtDeLVIHHffdVnpK7yfiOSxW3n3Dc+6TXtRIo0B+/6f7+fDgTOBqzCJbmz8oXot9rfjDamlell41bj9gm47Q==
   dependencies:
     sortablejs "^1.10.1"
     vuejs-datepicker "^1.6.2"
 
-"@factor/user@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@factor/user/-/user-1.1.1.tgz#6f6b5b7dfb5021fdbac39bd5533cf1dca75aaf3b"
-  integrity sha512-B69znkqQfvJU5/tCnolsAFcurAp2cfFNnudr5d+CY9RmPKwQXxe4x5FMkeE9LSQwyJyUJH5eJZogMuL7ZLDgsQ==
+"@factor/user@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@factor/user/-/user-1.1.2.tgz#44345537e67186822c78d8fd5835b92057dde27b"
+  integrity sha512-vIwBkO0kAexv+dP1RZQVv5va7UAHEDKPj+ULLEaMardVyx45UMVVuZIaGe8/Tx5X+6+Wblw51Xu4vuufSSwXUg==
   dependencies:
     bcryptjs "^2.4.3"
     email-validator "^2.0.4"

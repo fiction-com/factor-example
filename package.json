@@ -11,6 +11,7 @@
     "url": "https://basic-example.factor.dev"
   },
   "dependencies": {
-    "@factor/core": "^1.0.0"
+    "@factor/core": "^1.1.2",
+    "@factor/plugin-blog": "^1.1.1"
   }
 }
