@@ -5,10 +5,20 @@
   </div>
 </template>
 <script>
-  import { factorLink } from "@factor/ui"
-  export default {
-    components: {
-      factorLink
-    }
+import Vue from "vue";
+import { factorLink } from "@factor/ui";
+export default Vue.extend({
+  components: {
+    factorLink
   }
+});
 </script>
+<style lang="less">
+.app-header {
+  display: flex;
+  justify-content: center;
+  a {
+    margin: 1rem;
+  }
+}
+</style>
